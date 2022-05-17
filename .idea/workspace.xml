@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8ae6d3-7ab1-4bfc-8178-ff2557db4ea2" name="Changes" comment="add new functions">
-      <change afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarDatabase/CarDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarDatabase/CarDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb8ae6d3-7ab1-4bfc-8178-ff2557db4ea2" name="Changes" comment="add read and load file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652651181130</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add read and load file">
+      <created>1652823564844</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652823564844</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,7 +117,8 @@
     <MESSAGE value="add new project" />
     <MESSAGE value="add new packages" />
     <MESSAGE value="add new functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new functions" />
+    <MESSAGE value="add read and load file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add read and load file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
