@@ -21,8 +21,9 @@ public class Main {
             System.out.println("2. Dodaj auto");
             System.out.println("3. Usuń auto");
             System.out.println("4. Aktualizuj auto");
+            System.out.println("5. Zapis do pliku");
+            System.out.println("6. Wczytanie danych z pliku");
             System.out.println("x. Wyjdź z programu");
-            System.out.flush();
 
             zn = scan.next().charAt(0);
 
@@ -95,6 +96,18 @@ public class Main {
                     Car car = new Car(mark, model, productionDate, color, course, doorQuantity);
                     base.updateCar(index, car);
                     System.out.println("Zaktualizowano auto z indexem " + index);
+                    break;
+                }
+                case '5':
+                {
+                    base.saveCar();
+                    System.out.println("DODANO POMYŚLNIE");
+                    break;
+                }
+                case '6':
+                {
+                    System.out.println("DANE Z PLIKU");
+                    base.loadCar();
                     break;
                 }
                 case 'x':
