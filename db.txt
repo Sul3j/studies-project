@@ -1,1 +1,4 @@
-Testowy zapis do pliku
+Lamborghini;Urus;2018;czarny;2000;5
+Audi;A4;2003;zielony;600000;5
+Mercedes;a45-amg;2020;czarny;20000;3
+Laborghini;Aventador;2012;zolty;2000;3
