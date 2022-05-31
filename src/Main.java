@@ -2,10 +2,7 @@ import Accounts.Accounts;
 import Car.Car;
 import CarDatabase.CarDatabase;
 
-import java.io.Console;
-import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
 import java.util.Scanner;
 
 public class Main {
@@ -48,7 +45,6 @@ public class Main {
         char zn, z;
 
         do {
-            // TODO: uporzadkowac menu
             System.out.println("c. Przegladaj w lewo");
             System.out.println("v. Przegladaj w prawo");
             System.out.println("1. Dodaj auto");
@@ -68,7 +64,6 @@ public class Main {
             zn = scan.next().charAt(0);
 
             switch (zn) {
-                // TODO: usunac wyswietlanie wszystkich wynikow
                 // Przegladaj w lewo
                 case 'c': {
                     if (current >= 1) {

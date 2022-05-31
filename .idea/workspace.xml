@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8ae6d3-7ab1-4bfc-8178-ff2557db4ea2" name="Changes" comment="add sigup an login">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Accounts/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarDatabase/CarDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarDatabase/CarDatabase.java" afterDir="false" />
+    <list default="true" id="eb8ae6d3-7ab1-4bfc-8178-ff2557db4ea2" name="Changes" comment="refactor Main">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652992389234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor Main">
+      <created>1654009236234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654009236234</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +151,8 @@
     <MESSAGE value="add new functions" />
     <MESSAGE value="add read and load file" />
     <MESSAGE value="add sigup an login" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sigup an login" />
+    <MESSAGE value="refactor Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor Main" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
