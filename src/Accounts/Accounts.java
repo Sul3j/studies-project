@@ -2,10 +2,7 @@ package Accounts;
 
 import Car.Car;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -22,7 +19,7 @@ public class Accounts {
                 System.out.println("Plik już istnieje");
             }
 
-            FileWriter dbSave = new FileWriter("accounts.txt");
+            Writer dbSave = new BufferedWriter(new FileWriter("accounts.txt", true));
             int hashPassword = password.hashCode();
 
             dbSave.write(login + ";" + hashPassword + "\n");
@@ -51,7 +48,7 @@ public class Accounts {
 
                 if(elementsArray.get(0).toString().equals(login) && Integer.parseInt(elementsArray.get(1).toString()) == password.hashCode()) {
                     loginFlag = true;
-                    System.out.println("ZALOGOWANO");
+                    return loginFlag;
                 } else {
                     loginFlag = false;
                 }

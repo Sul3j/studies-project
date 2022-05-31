@@ -94,8 +94,6 @@ public class CarDatabase {
         return  carToSort;
     }
 
-    //TODO: dodac sortowanie po stringu
-
     //sortowanie bombelkowe
     private List<Car> sortStringArray(List<String> strArray, List<Car> cars, boolean option) {
         String temp = null;

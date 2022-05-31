@@ -216,7 +216,8 @@ public class Main {
                         System.out.println("ZAKTUALIZOWANO AUTO");
                         current = 0;
 
-                    } else {
+                    }
+                    else {
                         System.out.println("Podano zle dane logowania");
                     }
                     break;
