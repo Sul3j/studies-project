@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8ae6d3-7ab1-4bfc-8178-ff2557db4ea2" name="Changes" comment="add read and load file">
-      <change afterPath="$PROJECT_DIR$/accounts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Accounts/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/Sort.java" afterDir="false" />
+    <list default="true" id="eb8ae6d3-7ab1-4bfc-8178-ff2557db4ea2" name="Changes" comment="add sigup an login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Accounts/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Accounts/Accounts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarDatabase/CarDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarDatabase/CarDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -39,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -120,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652823662281</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add sigup an login">
+      <created>1652992389233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652992389234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +132,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+            </State>
           </value>
         </entry>
       </map>
@@ -140,7 +146,8 @@
     <MESSAGE value="add new packages" />
     <MESSAGE value="add new functions" />
     <MESSAGE value="add read and load file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add read and load file" />
+    <MESSAGE value="add sigup an login" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sigup an login" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

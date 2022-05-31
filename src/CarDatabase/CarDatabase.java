@@ -22,11 +22,11 @@ public class CarDatabase {
     }
 
     public void deleteCar(int index) {
-        cars.remove(index + 1);
+        cars.remove(index);
     }
 
     public void updateCar(int index, Car car) {
-        cars.set(index + 1, car);
+        cars.set(index, car);
     }
 
     public void saveCar() {
@@ -91,8 +91,67 @@ public class CarDatabase {
             }
         });
 
-        System.out.println(carToSort);
         return  carToSort;
+    }
+
+    //TODO: dodac sortowanie po stringu
+
+    //sortowanie bombelkowe
+    private List<Car> sortStringArray(List<String> strArray, List<Car> cars, boolean option) {
+        String temp = null;
+        List<Car> sortCarsAZ = new ArrayList<Car>();
+        List<Car> sortCarsZA = new ArrayList<Car>();
+
+        for(int i = 0; i < strArray.size(); i++) {
+            for(int j = 1; j < strArray.size() - i; j++) {
+                if (strArray.get(j-1).compareToIgnoreCase(strArray.get(j)) > 0)
+                {
+                    temp = strArray.get(j-1);
+                    strArray.set(j-1, strArray.get(j));
+                    strArray.set(j, temp);
+                }
+            }
+        }
+
+        for (String s : strArray) {
+            for (Car c : cars) {
+                if (c.getMark().equals(s)) {
+                    sortCarsAZ.add(c);
+                }
+            }
+        }
+
+        for (int i = 1; i <= sortCarsAZ.size(); i++) {
+            sortCarsZA.add(sortCarsAZ.get(sortCarsAZ.size() - i));
+        }
+
+        if (option) {
+            return sortCarsAZ;
+        } else {
+            return sortCarsZA;
+        }
+    }
+
+
+
+    public List<Car> sortCarByMarkAZ() {
+        List<String> marks = new ArrayList<String>();
+
+        for(Car c : cars) {
+            marks.add(c.getMark());
+        }
+
+        return sortStringArray(marks, cars, true);
+    }
+
+    public List<Car> sortCarByMarkZA() {
+        List<String> marks = new ArrayList<String>();
+
+        for(Car c : cars) {
+            marks.add(c.getMark());
+        }
+
+        return sortStringArray(marks, cars, false);
     }
 
     public List<Car> searchByProductionDate(int min, int max) {
@@ -119,6 +178,10 @@ public class CarDatabase {
         }
 
         return searchCar;
+    }
+
+    public Car viewCars(int index, List<Car> cars) {
+        return cars.get(index);
     }
 }
 
