@@ -10,7 +10,6 @@ import java.util.StringTokenizer;
 
 public class Accounts {
     public void signup(String login, String password) {
-        // TODO: zrobic zeby sie konta nie nadpisywaly
         try {
             File db = new File("accounts.txt");
             if(db.createNewFile()) {
