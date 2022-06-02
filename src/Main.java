@@ -56,7 +56,7 @@ public class Main {
             System.out.println("5. Sortowanie danych malejaco po roczniku");
             System.out.println("6. Sortowanie danych od A do Z po marce");
             System.out.println("7. Sortowanie danych od Z do A po marce");
-            System.out.println("8. Wyszukiwanie po przedziale przebiegu");
+            System.out.println("8. Wyszukiwanie po przedziale rocznikow");
             System.out.println("9. Wyszukiwanie po marce samochodu");
             System.out.println("a. Dodaj konto");
             System.out.println("x. Wyjdz z programu");
